@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="..\css\projet.css"> 
+        <title>sami's kitchen</title>
+      
+    </head>
+    <body>
+        
+        <div class="logo">
+            <img src="../assets/logo.png" alt="logo">
+        </div>
+       <nav><form class="search-container">
+         <input type="text" id="search-input" placeholder="Rechercher une recette">
+         <button type="submit" id="search-button" onclick="searchRecipesAndRedirect(event)">Search</button>
+
+       </form>
+        </nav> 
+            <div class="creative">
+              
+                <img class="cutekit" src="../assets/cutekit.png" alt="kit">
+                <p >AVEC LES INGREDIENTS QUE VOUS  <p id="ligne">DESIREZ</p></p>
+                <a class="catalogue"  href="catalogue.html">Catalogue</a>
+            </div>
+            
+            <h2 class="aprh2">A propos</h2>
+            <div class="apropos">
+               <img class="maphoto" src="../assets/maPhoto.jpg" alt="maPhoto">
+               
+               <p class="aprp">Je suis Sami Bendahgane votre étudiant en isil A merci pour tout ce semestre !Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aliquid libero quaerat assumenda laboriosam sapiente enim fuga nemo harum, recusandae et consequuntur, saepe vero fugiat, tempore nihil labore tenetur us! Recusandae possimus porro placeat voluptate, consequatur nihil perspiciatis ipsum optio architecto, repudiandae dolore nobis.</p>
+            </div>
+         
+            <div class="catégories">
+                <div class="container">
+                   <div class="row">
+                      <div class="col-md-12">
+                         <div class="titlepage text_align_center ">
+                            <h2>Catégories</h2>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                      <div class="col-md-4">
+                         <div id="ho_shad" class="services_box text_align_left">
+                            <h3>Petit Déjeuner</h3>
+                            <figure><img src="..\assets\recettes\2\2.png" alt="#"/></figure>
+                            <p> Commencez le jour avec une bonne recette!</p>
+                            <a class="read_more" href="catalogue.html">Voir tous</a>
+                         </div>
+                      </div>
+                      <div class="col-md-4">
+                         <div id="ho_shad" class="services_box text_align_left">
+                            <h3>Déjeuner</h3>
+                            <figure><img src="..\assets\recettes\9\4.png" alt="#"/></figure>
+                            <p>Bonne pause déjeuner</p>
+                            <a class="read_more" href="catalogue.html">Voir tous</a>
+                         </div>
+                      </div>
+                      <div class="col-md-4">
+                         <div id="ho_shad" class="services_box text_align_left">
+                            <h3>Diner</h3>
+                            <figure><img src="..\assets\recettes\5\4.png" alt="#"/></figure>
+                            <p>Régalez vous avant de dormir</p>
+                            <a class="read_more" href="catalogue.html">Voir tous</a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+            </div>
+             <div class="aleatoires">
+               <div class="container2">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="titlepage text_align_center ">
+                           <h2>Pas sur de ce que vous voulez? voici des recettes aléatoires</h2>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div id="random-recipes"></div>
+
+               </div>
+            </div>
+            <footer class="footer">
+              
+               <p>Trouvez nous sur nos réseaux sociaux</p>
+               <div class="logof">
+                  <img src="../assets/logo.png" alt="logo">
+              </div>
+               <ul class="social-icon">
+                 <li class="social-icon__item"><a class="social-icon__link" href="#">
+                     <ion-icon name="logo-facebook"></ion-icon>
+                   </a></li>
+                 <li class="social-icon__item"><a class="social-icon__link" href="#">
+                     <ion-icon name="logo-twitter"></ion-icon>
+                   </a></li>
+                 <li class="social-icon__item"><a class="social-icon__link" href="#">
+                     <ion-icon name="logo-linkedin"></ion-icon>
+                   </a></li>
+                 <li class="social-icon__item"><a class="social-icon__link" href="#">
+                     <ion-icon name="logo-instagram"></ion-icon>
+                   </a></li>
+               </ul>
+               <p>&copy;2023 Sami Bendahgane | All Rights Reserved</p>
+             </footer>
+
+
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../js/recettesDB.js"></script>  
+    
+    <script src="../js/projet.js"></script>
+    <script src="../js/index.js"></script>  
+    <script src="../js/details.js"></script>
+      
+    </body>
+</html>
